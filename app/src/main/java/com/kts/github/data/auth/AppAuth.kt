@@ -90,7 +90,7 @@ object AppAuth {
 
         const val CLIENT_ID = "..."
         const val CLIENT_SECRET = "..."
-        const val CALLBACK_URL = "ru.kts.oauth://github.com/callback"
-        const val LOGOUT_CALLBACK_URL = "ru.kts.oauth://github.com/logout_callback"
+        const val CALLBACK_URL = "ru.kts.github://github.com/callback"
+        const val LOGOUT_CALLBACK_URL = "ru.kts.github://github.com/logout_callback"
     }
 }
